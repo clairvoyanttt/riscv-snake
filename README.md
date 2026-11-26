@@ -16,6 +16,8 @@
 
 ## 当前进度
 
-已完成三人协作计划，游戏电路与程序待实现。课程基础电路、两个依赖 JAR、课程版 Logisim 和 RARS 的分发清单见计划书第 2 节。
+已完成三人协作计划及 A 的独立 CPU/MMIO 接入与诊断 ROM，原生仿真通过，课程版 GUI 已打开并运行诊断。B 外设和 C 游戏程序待接入。
+
+从 [A 阶段运行与交接](snake/运行与演示.md) 开始，打开 `snake/system/SnakeSystem.circ` 可运行内嵌诊断 ROM。课程基础电路、两个依赖 JAR、课程版 Logisim 和 RARS 的分发清单见计划书第 2 节。
 
 后续可分别使用 feat/cpu-system、feat/io-panel、feat/snake-game 分支提交各自的模块。
